@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Project1</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='pro.css'>
+    <script src='pro.js'></script>
+</head>
+<style>
+ body{
+        /*align-items: center;*/
+        color: black;
+    }
+   .head{
+    background-color: aqua;
+    display:flex;
+    justify-content: flex-end;
+    height: 70px;
+    font-size: medium;
+   }
+   .head ul{
+    text-decoration: none;
+    display: flex;
+    margin: 0 200px;
+    margin-top: 20px;
+}
+.head ul li {
+    display: inline-block;
+    list-style: none;
+    margin: 0 30px;
+   
+}
+.head a{
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+}
+a:hover{
+    color: red;
+}
+.pic{
+    width: 1400px;
+    height: 500px;
+}
+.home{
+    background-image: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/078/203/original/Doctor.jpg?1682092929");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 500px;
+}
+.home h1{
+    padding-left: 700px;
+    padding-top: 250px;
+    font-family: fantasy;
+    font-weight: bold;
+    font-style: normal;
+}
+.home button{
+    left: 700px;
+    top: 250px;
+}
+ .serv{
+    align-items: center;
+    display: flex;
+   flex-wrap: wrap;
+   background-color: rgb(152, 155, 158);
+ }
+ .serv section{
+    margin-top: 100px;
+    margin-left: 70px;
+    margin-right: 50px;
+    margin-bottom: 50px;
+    height: 200px;
+    width: 200px;
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
+ }
+ section h2{
+    margin-top: 30px;
+    margin-left: 45px;
+    font-size: 20px;
+ }
+ .serv section img{
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    margin-left: 35px;
+    margin-top: 20px;
+ }
+ .blog{
+        align-items: center;
+    display: flex;
+    background: linear-gradient(to right bottom, aqua, rgb(10, 173, 173));
+    justify-content: space-around;
+ }
+ 
+ img{
+    width: 600px;
+    margin-top: 15px;
+    border-radius: 10px;
+ }
+ .final{
+    width: 400px;
+ }
+
+    .logo {
+    width: 80px;
+    margin-top: 10px;
+    cursor: pointer;
+    border-radius: 50%;
+    margin-right: 300px;
+}
+span{
+    color:red;
+    font-weight: bold;
+}
+button{
+         display: block;
+margin: 60px 750px;
+width: 150px;
+border: 1px solid aqua;
+background: aqua;
+font-size: 18px;
+line-height: 20px;
+padding: 16px 24px;
+border-radius: 20px;
+box-shadow: rgba(37,39,89,0.08) 0px 8px 8px 0;
+cursor: pointer;
+ transition: all 200ms ease;
+    }
+    button:hover {
+  color: #fff;
+  background: #885df1;
+}
+</style>
+<body>
+    <div class="head">
+        <img src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/078/204/original/740168.jpg?1682092953" class="logo">
+    <ul>
+        <li><a>Home</a></li>
+        <li><a>About</a></li>
+        <li><a>Services</a></li>
+        <li><a>Blog</a></li>
+    </ul>
+    </div>
+    
+        <div class="home">
+           
+            <h1>The hospital of <strong>the future, today</strong></h1>
+            <button>Contact us</button>
+        </div>
+        <section></section>
+        <div class="serv">
+            <!--
+            <h2>Our services</h2>
+            -->
+            <section>
+                <img src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/078/202/original/the2.png?1682092900">
+                <h2>Heart Surgery</h2>
+            </section>
+            <section>
+                <img src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/078/202/original/the2.png?1682092900">
+                <h2>Dental care</h2>
+            </section>
+            <section>
+                <img src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/078/202/original/the2.png?1682092900">
+                <h2>Emergency Services</h2>
+            </section>
+            <section>
+                <img src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/078/202/original/the2.png?1682092900">
+                <h2>DNA testing</h2>
+            </section>
+            <section>
+                <img src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/078/202/original/the2.png?1682092900">
+                <h2>blood testing</h2>
+            </section>
+            <section>
+                <img src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/078/202/original/the2.png?1682092900">
+                <h2>family planning</h2>
+            </section>
+            <section>
+                <img src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/078/202/original/the2.png?1682092900">
+                <h2>General treatment</h2>
+            </section>
+            <section>
+                <img src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/078/202/original/the2.png?1682092900">
+                <h2>free checkup</h2>
+            </section>
+        </div>
+        <div class="blog">
+        <section>
+            <img src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/078/205/original/scleanf.jpg?1682092978" >
+        </section>
+        <section class="final">
+            <p><span>Saving the planet</span> is what grows my passion for <strong>web development</strong> <br>
+            I build a small landing page that can help people know more on <br><em> health and health tips that can help people take care and know their health status</em> </p>
+            <hr>
+            <p>I realy think health is the greatest world problem and challenged faced by all nations that's why i think <span>sensitizing and helping people raise awareness</span> of their well being through social media is going to be of great help</p>
+        </section>
+        </div>
+    </div>
+       <script>
+    function apply() {
+  let firstName = prompt("What is your first name?");
+  let register = prompt("Have you registered on our website?, 1 for YES and 0 dor NO");
+
+  if (register == 1) {
+    alert("welcome! "+ firstName + "");
+  } else {
+      alert("Sorry " + firstName + ",navigate to the contact page and register.");
+  }
+}
+
+let applyButton = document.querySelector("button");
+applyButton.addEventListener("click", apply);
+</script>
+</body>
+</html>
